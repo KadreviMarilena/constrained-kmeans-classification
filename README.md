@@ -26,7 +26,7 @@ Each dataset was preprocessed, numerically encoded (where needed), and split int
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Dataset                  | Accuracy |
 | ------------------------ | -------- |
@@ -35,6 +35,17 @@ Each dataset was preprocessed, numerically encoded (where needed), and split int
 | Breast Cancer Wisconsin  | ~90%     |
 
 The Constrained K-Means implementation achieves strong classification accuracy by combining clustering with class constraints.
+
+---
+## Report
+The full academic report explaining the methodology, datasets, implementation details, and results is available in the /report/ folder.
+
+---
+## Notes
+The code is intended for academic/research purposes.
+Datasets must be numerically encoded for the algorithm to work correctly.
+The code uses a fixed relaxation parameter for the hyper-cube constraints (e.g., 0.1).
+
 
 
 
